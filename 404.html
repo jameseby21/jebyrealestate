@@ -1,0 +1,21 @@
+<!doctype html>
+<!--
+  Public-build host document: loads the public Angular app into <jeby-root>.
+
+  Docs: docs/guides/INTERFACE.md#domain-surfaces
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- JRE-0363: same-origin only. No inline script or style is needed because the public build turns off critical-CSS
+       inlining (angular.json, configuration "public"); frame-ancestors cannot be set from a meta tag. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>Jeby Real Estate</title>
+  <base href="/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles-4AL5MRDM.css"></head>
+<body>
+  <jeby-root></jeby-root>
+<script src="main-5VEUV7TL.js" type="module"></script></body>
+</html>

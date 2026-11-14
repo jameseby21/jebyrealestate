@@ -1,0 +1,151 @@
+{
+ "title": "Analytics",
+ "synthetic": false,
+ "as_of": "2026-11-14",
+ "generated_at": "2026-11-14T04:17:03+00:00",
+ "scope": "Miami Springs and Virginia Gardens, Florida, with Miami-Dade County and Miami metro context",
+ "sources_summary": "U.S. Census Bureau (ACS)",
+ "notices": [
+  "This product uses the Census Bureau Data API but is not endorsed or certified by the Census Bureau."
+ ],
+ "attributions": [
+  "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077"
+ ],
+ "methodology": [
+  "Only sources verified for public display are used: U.S. Census Bureau (ACS).",
+  "City figures are ACS 5-year estimates; county and metro figures are context, not city statistics, and appear only when their source is cleared for public display.",
+  "No individual property, sale, address or owner appears on this site. Sales figures wait for a cleared source.",
+  "Not an appraisal and not advice."
+ ],
+ "tiles": [],
+ "tables": [
+  {
+   "title": "Miami Springs: housing and income",
+   "frequency": "5-year estimates",
+   "label": "ACS 5-year estimates, not a monthly series",
+   "columns": [
+    "Measure",
+    "2018-2022",
+    "2019-2023",
+    "2020-2024",
+    "Change, 2019-2023 to 2020-2024"
+   ],
+   "rows": [
+    [
+     "Population",
+     "13,729 ± 30",
+     "13,606 ± 51",
+     "13,726 ± 49",
+     "Up 0.9% from 2019-2023 (a statistically significant change at 90%)"
+    ],
+    [
+     "Housing units",
+     "5,720 ± 430",
+     "5,655 ± 455",
+     "5,648 ± 372",
+     "Down 0.1% from 2019-2023 (within the margins of error)"
+    ],
+    [
+     "Owner-occupied share of occupied homes",
+     "62.8% ± 6.9 pts",
+     "63.0% ± 6.5 pts",
+     "61.1% ± 6.4 pts",
+     "Down 1.9 points from 2019-2023 (within the margins of error)"
+    ],
+    [
+     "Median home value (owner-occupied homes)",
+     "$477,300 ± $17,508",
+     "$504,000 ± $50,680",
+     "$560,800 ± $66,930",
+     "Up 11.3% from 2019-2023 (within the margins of error)"
+    ],
+    [
+     "Median gross rent",
+     "$1,227 ± $93",
+     "$1,333 ± $96",
+     "$1,441 ± $135",
+     "Up 8.1% from 2019-2023 (within the margins of error)"
+    ],
+    [
+     "Median household income",
+     "$88,196 ± $17,895",
+     "$88,705 ± $16,808",
+     "$87,099 ± $18,950",
+     "Down 1.8% from 2019-2023 (within the margins of error)"
+    ]
+   ],
+   "source": {
+    "source_id": "census-acs",
+    "dataset": "ACS 5-year 2018-2022, 2019-2023, 2020-2024; tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "attribution": "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "terms_url": "https://www.census.gov/data/developers/about/terms-of-service.html",
+    "fetched_at": "2026-11-14T04:17:03+00:00"
+   },
+   "note": "Each column is a 5-year period; neighbouring periods share four years, so a change between them is small by construction. Shares and changes are computed by jeby from the Census estimates; the estimates are shown unchanged. Margins of error are at 90%."
+  },
+  {
+   "title": "Virginia Gardens: housing and income",
+   "frequency": "5-year estimates",
+   "label": "ACS 5-year estimates, not a monthly series",
+   "columns": [
+    "Measure",
+    "2018-2022",
+    "2019-2023",
+    "2020-2024",
+    "Change, 2019-2023 to 2020-2024"
+   ],
+   "rows": [
+    [
+     "Population",
+     "2,419 ± 353",
+     "2,306 ± 370",
+     "2,423 ± 402",
+     "Up 5.1% from 2019-2023 (within the margins of error)"
+    ],
+    [
+     "Housing units",
+     "890 ± 85",
+     "862 ± 98",
+     "895 ± 78",
+     "Up 3.8% from 2019-2023 (within the margins of error)"
+    ],
+    [
+     "Owner-occupied share of occupied homes",
+     "54.6% ± 9.6 pts",
+     "53.9% ± 8.0 pts",
+     "56.0% ± 9.0 pts",
+     "Up 2.1 points from 2019-2023 (within the margins of error)"
+    ],
+    [
+     "Median home value (owner-occupied homes)",
+     "$432,000 ± $13,144",
+     "$445,200 ± $16,249",
+     "$457,600 ± $21,445",
+     "Up 2.8% from 2019-2023 (within the margins of error)"
+    ],
+    [
+     "Median gross rent",
+     "$1,449 ± $295",
+     "$1,614 ± $151",
+     "$1,689 ± $158",
+     "Up 4.6% from 2019-2023 (within the margins of error)"
+    ],
+    [
+     "Median household income",
+     "$75,455 ± $15,518",
+     "$72,569 ± $25,100",
+     "$70,469 ± $25,119",
+     "Down 2.9% from 2019-2023 (within the margins of error)"
+    ]
+   ],
+   "source": {
+    "source_id": "census-acs",
+    "dataset": "ACS 5-year 2018-2022, 2019-2023, 2020-2024; tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "attribution": "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "terms_url": "https://www.census.gov/data/developers/about/terms-of-service.html",
+    "fetched_at": "2026-11-14T04:17:03+00:00"
+   },
+   "note": "Each column is a 5-year period; neighbouring periods share four years, so a change between them is small by construction. Shares and changes are computed by jeby from the Census estimates; the estimates are shown unchanged. Margins of error are at 90%."
+  }
+ ]
+}

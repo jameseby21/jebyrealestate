@@ -1,0 +1,155 @@
+{
+ "title": "Market Hub",
+ "synthetic": false,
+ "as_of": "2026-11-14",
+ "generated_at": "2026-11-14T04:17:03+00:00",
+ "scope": "Miami Springs and Virginia Gardens, Florida, with Miami-Dade County and Miami metro context",
+ "sources_summary": "U.S. Census Bureau (ACS)",
+ "notices": [
+  "This product uses the Census Bureau Data API but is not endorsed or certified by the Census Bureau."
+ ],
+ "attributions": [
+  "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077"
+ ],
+ "methodology": [
+  "Only sources verified for public display are used: U.S. Census Bureau (ACS).",
+  "City figures are ACS 5-year estimates; county and metro figures are context, not city statistics, and appear only when their source is cleared for public display.",
+  "No individual property, sale, address or owner appears on this site. Sales figures wait for a cleared source.",
+  "Not an appraisal and not advice."
+ ],
+ "tiles": [
+  {
+   "label": "Closed sales and median sale price, Miami Springs and Virginia Gardens",
+   "value": "Not available",
+   "window": "30 days",
+   "detail": "Not available: no cleared source for sales yet",
+   "source": null
+  },
+  {
+   "label": "Closed sales and median sale price, Miami Springs and Virginia Gardens",
+   "value": "Not available",
+   "window": "90 days",
+   "detail": "Not available: no cleared source for sales yet",
+   "source": null
+  },
+  {
+   "label": "Closed sales and median sale price, Miami Springs and Virginia Gardens",
+   "value": "Not available",
+   "window": "365 days",
+   "detail": "Not available: no cleared source for sales yet",
+   "source": null
+  },
+  {
+   "label": "Unemployment rate, Miami-Dade County",
+   "value": "Not available",
+   "window": "30 days",
+   "detail": "Not available: no cleared source yet",
+   "source": null
+  },
+  {
+   "label": "All-transactions house price index, Miami-Miami Beach-Kendall metro division",
+   "value": "Not available",
+   "window": "90 days",
+   "detail": "Not available: no cleared source yet",
+   "source": null
+  },
+  {
+   "label": "All-transactions house price index, Miami-Dade County",
+   "value": "Not available",
+   "window": "365 days",
+   "detail": "Not available: no cleared source yet",
+   "source": null
+  },
+  {
+   "label": "New private housing structures authorized by building permits, Miami-Dade County",
+   "value": "Not available",
+   "window": "365 days",
+   "detail": "Not available: no cleared source yet",
+   "source": null
+  },
+  {
+   "label": "Owner-occupied share of occupied homes, Miami Springs",
+   "value": "61.1%",
+   "window": "ACS 5-year, 2020-2024",
+   "period": "2020-2024",
+   "detail": "± 6.4 pts. Down 1.9 points from 2019-2023 (within the margins of error).",
+   "source": {
+    "source_id": "census-acs",
+    "dataset": "ACS 5-year 2018-2022, 2019-2023, 2020-2024; tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "attribution": "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "terms_url": "https://www.census.gov/data/developers/about/terms-of-service.html",
+    "fetched_at": "2026-11-14T04:17:03+00:00"
+   }
+  },
+  {
+   "label": "Median home value (owner-occupied homes), Miami Springs",
+   "value": "$560,800",
+   "window": "ACS 5-year, 2020-2024",
+   "period": "2020-2024",
+   "detail": "± $66,930. Up 11.3% from 2019-2023 (within the margins of error).",
+   "source": {
+    "source_id": "census-acs",
+    "dataset": "ACS 5-year 2018-2022, 2019-2023, 2020-2024; tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "attribution": "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "terms_url": "https://www.census.gov/data/developers/about/terms-of-service.html",
+    "fetched_at": "2026-11-14T04:17:03+00:00"
+   }
+  },
+  {
+   "label": "Median gross rent, Miami Springs",
+   "value": "$1,441",
+   "window": "ACS 5-year, 2020-2024",
+   "period": "2020-2024",
+   "detail": "± $135. Up 8.1% from 2019-2023 (within the margins of error).",
+   "source": {
+    "source_id": "census-acs",
+    "dataset": "ACS 5-year 2018-2022, 2019-2023, 2020-2024; tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "attribution": "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "terms_url": "https://www.census.gov/data/developers/about/terms-of-service.html",
+    "fetched_at": "2026-11-14T04:17:03+00:00"
+   }
+  },
+  {
+   "label": "Owner-occupied share of occupied homes, Virginia Gardens",
+   "value": "56.0%",
+   "window": "ACS 5-year, 2020-2024",
+   "period": "2020-2024",
+   "detail": "± 9.0 pts. Up 2.1 points from 2019-2023 (within the margins of error).",
+   "source": {
+    "source_id": "census-acs",
+    "dataset": "ACS 5-year 2018-2022, 2019-2023, 2020-2024; tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "attribution": "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "terms_url": "https://www.census.gov/data/developers/about/terms-of-service.html",
+    "fetched_at": "2026-11-14T04:17:03+00:00"
+   }
+  },
+  {
+   "label": "Median home value (owner-occupied homes), Virginia Gardens",
+   "value": "$457,600",
+   "window": "ACS 5-year, 2020-2024",
+   "period": "2020-2024",
+   "detail": "± $21,445. Up 2.8% from 2019-2023 (within the margins of error).",
+   "source": {
+    "source_id": "census-acs",
+    "dataset": "ACS 5-year 2018-2022, 2019-2023, 2020-2024; tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "attribution": "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "terms_url": "https://www.census.gov/data/developers/about/terms-of-service.html",
+    "fetched_at": "2026-11-14T04:17:03+00:00"
+   }
+  },
+  {
+   "label": "Median gross rent, Virginia Gardens",
+   "value": "$1,689",
+   "window": "ACS 5-year, 2020-2024",
+   "period": "2020-2024",
+   "detail": "± $158. Up 4.6% from 2019-2023 (within the margins of error).",
+   "source": {
+    "source_id": "census-acs",
+    "dataset": "ACS 5-year 2018-2022, 2019-2023, 2020-2024; tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "attribution": "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077",
+    "terms_url": "https://www.census.gov/data/developers/about/terms-of-service.html",
+    "fetched_at": "2026-11-14T04:17:03+00:00"
+   }
+  }
+ ]
+}

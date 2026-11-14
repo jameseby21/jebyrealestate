@@ -1,0 +1,40 @@
+{
+ "generated_at": "2026-11-14T04:17:03+00:00",
+ "as_of": "2026-11-14",
+ "files": [
+  "market-hub.json",
+  "analytics.json"
+ ],
+ "register": "config/public_sources.json",
+ "sources": [
+  {
+   "source_id": "census-acs",
+   "label": "US Census Bureau American Community Survey, 5-year estimates, place level",
+   "verdict": "permitted_with_attribution",
+   "terms_url": "https://www.census.gov/data/developers/about/terms-of-service.html",
+   "reviewed_on": "2026-11-13",
+   "attribution": "This product uses the Census Bureau Data API but is not endorsed or certified by the Census Bureau.",
+   "access": "Table-based Summary File (bulk, www2.census.gov), because the Data API now answers every request without a key with a missing-key redirect; the API path needs a free key requested at https://api.census.gov/data/key_signup.html by the owner.",
+   "items": [
+    {
+     "dataset": "Miami Springs city, Florida: tables B01003, B19013, B25001, B25003, B25064, B25077",
+     "title": "Miami Springs ACS 5-year estimates",
+     "frequency": "5-year estimates",
+     "attribution": "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077",
+     "period_range": "2018-2022 to 2020-2024",
+     "fetched_at": "2026-11-14T04:17:03+00:00",
+     "fetch_url": "https://www2.census.gov/programs-surveys/acs/summary_file/{vintage}/table-based-SF/data/5YRData/acsdt5y{vintage}-{table}.dat"
+    },
+    {
+     "dataset": "Virginia Gardens village, Florida: tables B01003, B19013, B25001, B25003, B25064, B25077",
+     "title": "Virginia Gardens ACS 5-year estimates",
+     "frequency": "5-year estimates",
+     "attribution": "Source: U.S. Census Bureau, American Community Survey 5-Year Estimates, 2018-2022 to 2020-2024, tables B01003, B19013, B25001, B25003, B25064, B25077",
+     "period_range": "2018-2022 to 2020-2024",
+     "fetched_at": "2026-11-14T04:17:03+00:00",
+     "fetch_url": "https://www2.census.gov/programs-surveys/acs/summary_file/{vintage}/table-based-SF/data/5YRData/acsdt5y{vintage}-{table}.dat"
+    }
+   ]
+  }
+ ]
+}
