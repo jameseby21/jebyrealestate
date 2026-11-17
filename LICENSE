@@ -1,0 +1,9 @@
+Copyright (c) 2026 James Eby. All rights reserved.
+
+These built files are published so that the site at jebyrealestate.com can be
+served. No licence is granted to copy, modify, redistribute or reuse them
+except as needed to view the site.
+
+The third-party components bundled in these files (Angular, RxJS, tslib and
+related packages) are licensed under their own terms, listed in
+3rdpartylicenses.txt.
